@@ -26,7 +26,7 @@ public class Cube : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !isDead)
         {
             GetComponent<Rigidbody2D>().AddForce(transform.up * 300, ForceMode2D.Force);
 
