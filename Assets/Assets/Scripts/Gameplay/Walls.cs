@@ -25,15 +25,15 @@ public class Walls : MonoBehaviour
         {
             wallSpeed = 0.1f;
         }
-        else if (ScoreDetector.GetComponent<ScoreScript>().score < 30)
+        else if (ScoreDetector.GetComponent<ScoreScript>().score < 40)
         {
             wallSpeed = 0.15f;
         }
-        else if (ScoreDetector.GetComponent<ScoreScript>().score < 40)
+        else if (ScoreDetector.GetComponent<ScoreScript>().score < 60)
         {
             wallSpeed = 0.2f;
         }
-        else if (ScoreDetector.GetComponent<ScoreScript>().score < 50)
+        else if (ScoreDetector.GetComponent<ScoreScript>().score < 100)
         {
             wallSpeed = 0.25f;
         }
