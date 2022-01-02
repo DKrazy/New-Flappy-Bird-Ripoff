@@ -329,6 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0364ce4fef4298f408510eea26a9843c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreDetector: {fileID: 128663269}
   wallSpeed: 0.1
 --- !u!1 &496482767
 GameObject:
@@ -5964,6 +5965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0364ce4fef4298f408510eea26a9843c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreDetector: {fileID: 128663269}
   wallSpeed: 0.1
 --- !u!1 &1253590017
 GameObject:
@@ -6099,6 +6101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0364ce4fef4298f408510eea26a9843c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreDetector: {fileID: 128663269}
   wallSpeed: 0.1
 --- !u!1 &1296927496
 GameObject:
@@ -6470,6 +6473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0364ce4fef4298f408510eea26a9843c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreDetector: {fileID: 128663269}
   wallSpeed: 0.1
 --- !u!1 &1611450417
 GameObject:
@@ -6520,7 +6524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 128663269}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1611450420

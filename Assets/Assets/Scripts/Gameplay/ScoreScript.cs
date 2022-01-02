@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScoreScript : MonoBehaviour
 {
-    [SerializeField] float wallSpeed;
+    float wallSpeed = 0.1f;
 
     [SerializeField] public int score = 0;
 
