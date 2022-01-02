@@ -20,7 +20,7 @@ public class Cube : MonoBehaviour
 
     int wall = 1;
 
-    public float timer;
+    public float timer = 0;
 
     public bool isDead = false;
 
