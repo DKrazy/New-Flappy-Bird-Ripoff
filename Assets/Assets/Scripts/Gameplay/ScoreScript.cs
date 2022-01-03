@@ -5,8 +5,9 @@ using UnityEngine;
 public class ScoreScript : MonoBehaviour
 {
     public GameObject Cube;
+    public GameObject Wall;
 
-    float wallSpeed = 0.1f;
+    float wallSpeed;
 
     public int score = 0;
     public int highscore = 0;
@@ -18,6 +19,7 @@ public class ScoreScript : MonoBehaviour
 
     void FixedUpdate()
     {
+        wallSpeed = Wall.GetComponent<Walls>().wallSpeed;
         GetComponent<Transform>().position = new Vector3(GetComponent<Transform>().position.x - wallSpeed, 0, 0);
     }
 

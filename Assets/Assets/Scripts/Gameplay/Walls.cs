@@ -6,7 +6,7 @@ public class Walls : MonoBehaviour
 {
     public GameObject ScoreDetector;
 
-    float wallSpeed = 0.1f;
+    public float wallSpeed = 0.1f;
 
     float yRandom = 0;
 

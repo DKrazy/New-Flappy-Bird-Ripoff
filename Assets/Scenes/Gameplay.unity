@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cube: {fileID: 722603623}
+  Wall: {fileID: 1253590017}
   score: 0
   highscore: 0
 --- !u!1 &175859895
